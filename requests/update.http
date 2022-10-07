@@ -1,0 +1,8 @@
+
+PUT http://localhost:3000/tasks/1
+content-Type: application/json
+
+{
+    "description":"Fix the computer",
+    "completed":true
+}
